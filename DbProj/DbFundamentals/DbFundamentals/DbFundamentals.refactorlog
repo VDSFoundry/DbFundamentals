@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b065725a-ce2c-4a09-adab-4425bb8c1ad7" ChangeDateTime="12/10/2015 04:34:19">
+    <Property Name="ElementName" Value="[dbo].[AcquisitionType].[TypeCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AcquisitionType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Code" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="42862ddd-cba0-4935-83c0-dbadbdfb743d" ChangeDateTime="12/10/2015 04:34:49">
+    <Property Name="ElementName" Value="[dbo].[Hoc].[HocCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Hoc]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Code" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1408833f-0af8-4115-95b0-100258922c6b" ChangeDateTime="12/10/2015 04:35:07">
+    <Property Name="ElementName" Value="[dbo].[MainStep].[StepCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MainStep]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Code" />
+  </Operation>
+</Operations>

@@ -1,0 +1,51 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AcquisitionType] (Table)
+       [dbo].[AssignmentType] (Table)
+       [dbo].[ContractArea] (Table)
+       [dbo].[ContractorType] (Table)
+       [dbo].[Hoc] (Table)
+       [dbo].[MainStep] (Table)
+       [dbo].[NspType] (Table)
+       [dbo].[Property] (Table)
+       [dbo].[Property].[IX_Property_MainStepId] (Index)
+       [dbo].[Property].[IX_Property_AcquistionTypeId] (Index)
+       [dbo].[Property].[IX_Property_ContractAreaId] (Index)
+       [dbo].[Property].[IX_Property_PropertyStatusId] (Index)
+       [dbo].[Property].[IX_Property_PropertyTypeId] (Index)
+       [dbo].[Property].[IX_Property_HocId] (Index)
+       [dbo].[Property].[IX_Property_NspTypeId] (Index)
+       [dbo].[Property].[IX_Property__Address_City_State_ZipCode] (Index)
+       [dbo].[Property].[IX_Property__State_County_City] (Index)
+       [dbo].[Property].[IX_Property_StepOn] (Index)
+       [dbo].[Property].[IX_Property_StatusOn] (Index)
+       [dbo].[Property].[IX_Property_AcquisitionOn] (Index)
+       [dbo].[Property].[IX_Property_DeactivatedOn] (Index)
+       [dbo].[PropertyAssignment] (Table)
+       [dbo].[PropertyContractor] (Table)
+       [dbo].[PropertyContractor].[IX_PropertyContractor_ContractorTypeId] (Index)
+       [dbo].[PropertyStatus] (Table)
+       [dbo].[PropertyType] (Table)
+       [dbo].[FK_Property_MainStep] (Foreign Key)
+       [dbo].[FK_Property_AcquisitionType] (Foreign Key)
+       [dbo].[FK_Property_ContractArea] (Foreign Key)
+       [dbo].[FK_Property_PropertyStatus] (Foreign Key)
+       [dbo].[FK_Property_PropertyType] (Foreign Key)
+       [dbo].[FK_Property_Hoc] (Foreign Key)
+       [dbo].[FK_Property_NspType] (Foreign Key)
+       [dbo].[FK_PropertyAssignment_Property] (Foreign Key)
+       [dbo].[FK_PropertyAssignment_AssignmentType] (Foreign Key)
+       [dbo].[FK_PropertyAssignment_PropertyContractor] (Foreign Key)
+       [dbo].[FK_PropertyContractor_ContractorTypeId] (Foreign Key)
+
+** Supporting actions
